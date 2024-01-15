@@ -1,20 +1,16 @@
 {
-  "name": "@codemirror/lang-json",
-  "version": "6.0.1",
-  "description": "JSON language support for the CodeMirror code editor",
+  "name": "codemirror-lang-jmespath",
+  "version": "1.0.0",
+  "description": "Community JMESPath language support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/json.ts"
+    "prepare": "cm-buildhelper src/jmespath.ts"
   },
   "keywords": [
     "editor",
     "code"
   ],
-  "author": {
-    "name": "Marijn Haverbeke",
-    "email": "marijn@haverbeke.berlin",
-    "url": "http://marijnhaverbeke.nl"
-  },
+  "author": "Chris Stanley <31392431+Propolisa@users.noreply.github.com>",
   "type": "module",
   "main": "dist/index.cjs",
   "exports": {
@@ -27,13 +23,13 @@
   "license": "MIT",
   "dependencies": {
     "@codemirror/language": "^6.0.0",
-    "@lezer/json": "^1.0.0"
+    "lezer-jmespath": "^1.0.0"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemirror/lang-json.git"
+    "url": "https://github.com/Propolisa/codemirror-lang-jmespath.git"
   }
 }

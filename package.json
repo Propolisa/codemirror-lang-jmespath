@@ -1,6 +1,6 @@
 {
   "name": "codemirror-lang-jmespath",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Community JMESPath language support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",

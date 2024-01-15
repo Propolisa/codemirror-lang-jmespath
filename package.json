@@ -1,6 +1,6 @@
 {
   "name": "codemirror-lang-jmespath",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Community JMESPath language support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
@@ -22,7 +22,7 @@
   "sideEffects": false,
   "license": "MIT",
   "dependencies": {
-    "@codemirror/language": "^6.0.0",
+    "@codemirror/language": "6.10.0",
     "lezer-jmespath": "^1.0.0"
   },
   "devDependencies": {
